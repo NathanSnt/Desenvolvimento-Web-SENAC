@@ -2,7 +2,7 @@
 git init
 git add .
 git commit -m ""
-git remote add origin URL
+git remote add origin <URL>
 git push -u origin master
 
 ## Atualizar
@@ -10,3 +10,9 @@ git init
 git add .
 git commit -m ""
 git push -u origin master
+
+## Clonar
+(no cmd)
+git clone <URL>
+
+## Sincronizar
