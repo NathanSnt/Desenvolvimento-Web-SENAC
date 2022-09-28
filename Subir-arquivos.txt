@@ -11,8 +11,12 @@ git add .
 git commit -m ""
 git push -u origin master
 
+<<<<<<< HEAD
 ## Clonar
 (no cmd)
 git clone <URL>
 
 ## Sincronizar
+=======
+#teste
+>>>>>>> 38fb956269721c2c5eda546b9efa4e4eba04e288
