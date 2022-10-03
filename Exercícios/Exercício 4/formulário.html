@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Cadastro da Liga dos Programadores</h1>
+
+    <form>
+        <label>Nome:</label>
+        <input type="text" placeholder="Digite o seu nome" required>
+
+        <p>
+            <label>Email:</label>
+            <input type="email" placeholder="Digite o seu Email" required>
+            -
+            <label>Senha:</label>
+            <input type="password" placeholder="Digite a sua senha" required>
+        </p>
+
+        <p>
+            <label>Data de Nascimento:</label>
+            <input type="date" required>
+            -
+            <label>Foto:</label>
+            <input type="file" required>
+        </p>
+
+        <p>
+            <label>Nacionalidade:</label>
+            <select>
+                <option value="Brasileira">Brasileira</option>
+                <option value="Colombiana">Colombiana</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Peruana">Peruana</option>
+                <option value="Chilena">Chilena</option>
+                <option value="Venezuelana">Venezuelana</option>
+                <option value="Boliviana">Boliviana</option>
+                <option value="Uruguaia">Uruguaia</option>
+            </select>
+            -
+            <label>Gênero:</label>
+            <input type="radio" name="Genero" id="F" required>
+            <label for="F">F</label>
+            <input type="radio" name="Genero" id="M">
+            <label for="M">M</label>
+        </p>
+
+        <p>
+            <label>Linguagens que você domina:</label>
+            <br>
+            <input id="JS" type="checkbox">
+            <label for="JS">JavaScript</label>
+            <input type="checkbox" id="Py">
+            <label for="Py">Python</label>
+            <input type="checkbox" id="C">
+            <label for="C">C</label>
+            <input type="checkbox" id="Java">
+            <label for="Java">Java</label>
+        </p>
+
+        <textarea placeholder="Por que você quer ser um programador?" name="" id="" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <input type="submit" value="Criar">
+
+
+    </form>
+</body>
+</html>

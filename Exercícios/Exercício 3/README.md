@@ -1,0 +1,2 @@
+Criar uma página que contenha uma tabela informando a previsão do tempo para os dias da semana.
+A tabela deve conter o dia da semana, uma imagem com a previsão do tempo, temperatura máxima e temperatura mínima.
