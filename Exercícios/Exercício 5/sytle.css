@@ -1,0 +1,25 @@
+body{
+    background-color: #2c3e50;
+    font-weight: bold;
+}
+
+header {
+    color: #fff;
+}
+
+#dia{
+    color: #f1c40f;
+}
+
+.dias{
+    background-color: #f1c40f;
+    border: solid #000 2px;
+}
+
+section ul{
+    color: #fff;
+}
+
+.importante {
+    color: #e74c3c;
+}
