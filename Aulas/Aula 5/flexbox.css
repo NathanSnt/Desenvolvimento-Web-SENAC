@@ -1,0 +1,27 @@
+.container {
+    background-color: #333;
+    display: flex;
+  /*   flex-direction: row-reverse; Alinha em forma de linha*/
+  /*   flex-direction: column-reverse; Alinha em forma de coluna*/
+  /*   flex-wrap: wrap-reverse; Quebra de linha, caso ultrapasse o espaço do container*/
+    
+  /*   justify-content: space-around; */
+  /*
+    valores para "justify-content":
+        flex-start; Posiciona no começo do container
+        flex-end; Posiciona no final do container
+        center; Posiciona no meio do container
+        space-between; Dá um espaçamento entre os elemento dentro do container
+        space-around;Dá um espaço em volta dos elementos dentro do container
+        space-evenly; Dá um espaço igual em volta dos elemento do container
+  */
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container div {
+    background-color: #aa0;
+    margin: 10px;
+    padding: 11px;
+  }
