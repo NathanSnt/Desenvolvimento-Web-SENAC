@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Indie+Flower&family=Orbitron:wght@500&display=swap');
+
+body{
+    color: #aaa;
+    
+    line-height: 40px;
+    text-align: center;
+}
+
+#p1{
+    font: 20px 'Orbitron', sans-serif; 
+    font: 20px 'Aref Ruqaa Ink', serif;
+}
+#p2{
+    font: bold 20px 'Indie Flower', cursive;
+} */
+
+.container {
+    margin: 10 px0px 25px 40px;
+    border: solid 10px #aaa;
+    padding: 10px 50px 25px 8px; /*Sentido horário. cima, direita, baixo e esquerda*/
+    width: 50%;
+}
+
+.box {
+    margin: 100% 15px 0px 25%;
+    border: solid 5px #c19;
+    padding: 25px 10px 5px 20px;
+    width: 50%;
+}
