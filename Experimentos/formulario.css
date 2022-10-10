@@ -1,0 +1,31 @@
+.linhas {
+    padding: 5px 20px;
+}
+
+.linhas input{
+    margin: 5px 0px 0px 50px;
+}
+
+#primeira_linha{
+    /* border: solid black; */
+    display: inline-block;
+    width: 150px;
+}
+
+#segunda_linha{
+    /* border: solid black; */
+    display: inline-block;
+    width: 150px;
+}
+
+#terceira_linha{
+    /* border: solid black; */
+    display: inline-block;
+    width: 150px;
+}
+
+#quarta_linha{
+    /* border: solid black; */
+    display: inline-block;
+    width: 150px;
+}
