@@ -1,0 +1,30 @@
+[ position: relative ]
+Muda a posição do elemento, considereando como base a posição atual.
+top
+bottom
+left
+right
+
+top: 15px; Move o elemento 15px da posição atual no top.
+
+
+[ position: absolute ]
+Muda a posição do elemento, conforme a página.
+top
+bottom
+left
+right
+
+bottom: 0px; Move o elemento 0px distância do botton da página.
+
+[ position: fixed ]
+Deixa o elemento fixado em alguma parte da página.
+top
+bottom
+left
+right
+
+left: 0px; Deixa o elemento fixado à direita da página.
+
+[ z-index: int ]
+Define qual elemento fica por cima de outro. quanto maior, mais por cima o elemento fica.
