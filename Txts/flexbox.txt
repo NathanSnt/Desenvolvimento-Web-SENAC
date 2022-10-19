@@ -40,4 +40,8 @@ wrap-reverse: Items wrap around to additional lines in reverse.
 valores de flex-direction + flex-wrap;
 
 [ flex-grow ]
-Responsivo
+preenche o espaço extra disponível.
+
+[ flex-shrink ]
+descreve como os elementos reagem quando não há espaço suficiente para todos caberem!
+Usa proporções para controlar a rapidez com que cada item diminui. Todos encolhem na mesma velocidade.
