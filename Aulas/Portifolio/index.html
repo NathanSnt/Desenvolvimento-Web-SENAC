@@ -1,59 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <script src="https://kit.fontawesome.com/5c3542a6a8.js" crossorigin="anonymous"></script>
-    <title>Portifólio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/5c3542a6a8.js" crossorigin="anonymous"></script>
+  <title>Portifólio</title>
 </head>
-<body>
-    <div class="columns ml-6 mt-3">
-        <div class="column is-one-quarter">
-          
-            
-            <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media is-flex-direction-column">
-                        <!-- <div class="media-left">
-                        <figure class="image is-48x48">
-                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                        </figure>
-                        </div>
-                        <div class="media-content">
-                        <p class="title is-4">John Smith</p>
-                        <p class="subtitle is-6">@johnsmith</p>
-                        </div>
-                    </div>
-                
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                        <a href="#">#css</a> <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
 
-                        <p class="title is-4 is-spaced">Nathan Santos</p>
-                        <p class="tag is-black mb-4">Programador Júnior</p>
-                        <a class="mb-4" href="https://github.com/NathanSnt" target="_blank">Github</a>
-                        <p class="mb-4">(00) 00000-0000</p>
-                        <p class="mb-4">natan-silva-2011@hotmail.com</p>
-                    </div>
-                </div>
-              </div>
+<body class="has-background-white-ter">
+  <!-- Card Esquerdo -->
+  <div id="colunas" class="columns ml-6">
+    <div class="column is-one-quarter mt-5">
 
-
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="src/image/ti.jfif" alt="Placeholder image">
+          </figure>
         </div>
-        <div class="column">
-          Second column
+        <div class="card-content">
+          <div class="media is-flex-direction-column">
+            <p class="title is-4 is-spaced">Nathan Santos</p>
+            <p class="tag is-black mb-4">Programador Júnior</p>
+            <a class="mb-4" href="https://github.com/NathanSnt" target="_blank">Github</a>
+            <p class="mb-4">(00) 00000-0000</p>
+            <p class="mb-4">natan-silva-2011@hotmail.com</p>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- Sobre mim -->
+    <div class="column is-three-fifths mt-5">
+
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            Sobre mim
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui excepturi explicabo ut illo quos dolor
+            fuga ipsum officiis pariatur tenetur, odit quia soluta, similique, a architecto molestias eius minima?
+          </div>
+        </div>
+      </div>
+      <!-- Experiências -->
+      <div class="card mt-3">
+        <header class="card-header">
+          <p class="card-header-title">
+            Experiências
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="src/image/redhat.svg">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="field is-grouped is-grouped-multiline mt-5 mb-5">
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-link">C# Developer</span>
+                      <span class="tag is-black">Red Hat</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- <h5 class="title is-5">C# Developer <span class="tag is-black">Red Hat </span></h5> -->
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus est voluptatum incidunt aliquid
+                  et, hic in enim consequatur asperiores quam. Deserunt velit mollitia suscipit esse iusto temporibus
+                  ipsa consequatur est!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="src/image/spacex.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="field is-grouped is-grouped-multiline mt-5 mb-5">
+                  <div class="control">
+                    <div class="tags has-addons">
+                      <span class="tag is-link">Data Science engineer</span>
+                      <span class="tag is-black">Space-X</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- <h5 class="title is-5">Data Science engineer <span class="tag is-black">Space-X</span></h5> -->
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus est voluptatum incidunt aliquid
+                  et, hic in enim consequatur asperiores quam. Deserunt velit mollitia suscipit esse iusto temporibus
+                  ipsa consequatur est!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Formação -->
+      <div class="card mt-3">
+        <header class="card-header">
+          <p class="card-header-title">
+            Formação
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <h5 class="title is-5">Técnico em informática <span class="tag is-black">Senac Largo 13</span></h5>
+            <br>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum suscipit impedit, ipsam quos earum tempora
+              libero quod a culpa. Numquam assumenda et dignissimos, tenetur sint alias quam repellat nobis ea?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, totam officia voluptates eius
+              consectetur ullam perspiciatis sapiente nihil saepe optio. Expedita placeat veritatis alias magni ducimus
+              accusantium, commodi iure quia?
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="card-content">
+          <div class="content">
+            <h5 class="title is-5">IT Essentials <span class="tag is-black">Cisco Network Academy</span></h5>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus, eum a officiis soluta corrupti
+            sunt sed quas ab voluptates sint reprehenderit aspernatur quia obcaecati recusandae consequatur asperiores
+            corporis dolorem.
+          </div>
+        </div>
+      </div>
+      <!--  HABILIDADES  -->
+
+      <div class="card mt-3">
+        <header class="card-header">
+          <p class="card-header-title">
+            Habilidades
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="src/image/cs.png">
+                </figure>
+              </div>
+              <div class="column">
+                <h5 class="title is-5">C#</h5>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus est voluptatum incidunt aliquid
+                  et, hic in enim consequatur asperiores quam. Deserunt velit mollitia suscipit esse iusto temporibus
+                  ipsa consequatur est!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="src/image/python.jfif">
+                </figure>
+              </div>
+              <div class="column">
+                <h5 class="title is-5">Python</h5>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus est voluptatum incidunt aliquid
+                  et, hic in enim consequatur asperiores quam. Deserunt velit mollitia suscipit esse iusto temporibus
+                  ipsa consequatur est!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="src/image/js.png">
+                </figure>
+              </div>
+              <div class="column">
+                <h5 class="title is-5">JavaScript</h5>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus est voluptatum incidunt aliquid
+                  et, hic in enim consequatur asperiores quam. Deserunt velit mollitia suscipit esse iusto temporibus
+                  ipsa consequatur est!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
