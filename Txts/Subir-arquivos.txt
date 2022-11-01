@@ -1,9 +1,8 @@
-## Primeira vez
+## Primeira vez (Configuração)
 git init
-git add .
-git commit -m ""
 git remote add origin <URL>
-git push -u origin master
+git config --global user.name ""
+git config --global user.email ""
 
 ## Atualizar
 git init
