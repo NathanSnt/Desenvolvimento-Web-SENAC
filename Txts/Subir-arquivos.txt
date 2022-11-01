@@ -4,6 +4,9 @@ git remote add origin <URL>
 git config --global user.name ""
 git config --global user.email ""
 
+## Alterar a branch
+git branch -M nome
+
 ## Atualizar
 git init
 git add .
