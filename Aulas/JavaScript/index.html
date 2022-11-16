@@ -8,24 +8,26 @@
 </head>
 <body>
 
-    <button onclick="clickMe()">Clique-me</button>
+    <button class="reset" onclick="clickMe(this)">Clique-me</button>
 
     <p>
-        Focus
-        <input type="text" name="focus-text">
+        Focus (Acionado quando o campo ganha foco)
+        <input class="reset"  type="text" name="focus-text" onfocus="focusMe(this)">
     </p>
 
     <p>
-        Blur
-        <input type="text" name="blur-text">
+        Blur (Acionado quando o campo perdo o foco)
+        <input class="reset" type="text" name="blur-text" onblur="blurMe(this)">
     </p>
 
     <p>
-        Change
-        <input type="text" name="change-text">
+        Change (Altera quando o valor do campo muda)
+        <input class="reset" onchange="onChange(this)" type="text" name="change-text">
     </p>
 
-    <p>Passo o mouse sobre mim</p>
+    <p class="reset" onmouseenter="overMe(this)">Passe o mouse sobre mim</p>
+
+    <button onclick="resetAll()">Reset</button>
     
     <script src="script.js"></script>
 </body>

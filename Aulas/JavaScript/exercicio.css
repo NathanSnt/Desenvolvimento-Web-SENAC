@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#div {
+    background-color: red; 
+    border: 1px solid; 
+    height: 350px; 
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: 25px arial;
+    transition: width 2s, height 2s;
+}
+
+#div:hover {
+    height: 550px; 
+    width: 550px;
+}
