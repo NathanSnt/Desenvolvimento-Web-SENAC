@@ -1,0 +1,24 @@
+#minhaDiv {
+    color: black;
+    font: arial;
+}
+
+.classe1 {
+    display: flex;
+    width: 650px;
+    height: 300px;
+    background-color: #987;
+}
+
+.classe2 {
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 13px;
+    padding: 8px;
+}
+
+.classe3 {
+    align-items: center;
+    border: dashed black 5px;
+    text-transform: uppercase;
+}
