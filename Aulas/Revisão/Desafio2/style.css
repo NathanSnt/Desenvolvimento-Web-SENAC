@@ -1,0 +1,38 @@
+body {
+    background-color: #0F0C29;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+img {
+    width: 310px;
+}
+
+.foto {
+    padding: 22px;
+}
+
+.texto {
+    padding: 22px;
+}
+
+#icone {
+    width: 15px;
+}
+
+#medalha {
+    width: 50px;
+}
+
+#brasao {
+    width: 80px;
+}
