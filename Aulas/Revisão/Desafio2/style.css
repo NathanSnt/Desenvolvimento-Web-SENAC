@@ -17,12 +17,12 @@ img {
     width: 310px;
 }
 
-.foto {
+.foto, .texto {
     padding: 22px;
 }
 
-.texto {
-    padding: 22px;
+#texto {
+    text-align: justify;
 }
 
 #icone {
