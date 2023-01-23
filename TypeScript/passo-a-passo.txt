@@ -1,0 +1,25 @@
+npm (node package manager)
+Pacotes do node = https://www.npmjs.com/package/nodemon
+
+1 - Para criar o projeto do zero, abra o terminal e dê o seguinte comando:
+    > npm init
+
+    dê enter
+
+2 - Faça a instalação do typescript com os comando abaixo:
+    > npm install typescript
+    > npx tsc --init
+
+3 - Configurar arquivo tsconfig.json:
+    - retire o comentário do "moduleResolution"
+    - colocaro outDir : "/.dist" e rootDir: "./src"
+
+4 - Instalar o pacote das tipagens do TS:
+    > npm install @types/node
+
+5 - Instalar o nodemon para rodar o projeto
+    > npm install -g nodemon
+        OU (caso o de cima não funcione)
+    > npm install --save-dev nodemon
+
+    > npm install -D ts-node

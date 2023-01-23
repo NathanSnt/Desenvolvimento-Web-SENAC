@@ -1,0 +1,19 @@
+{
+  "name": "desenvolvimento-web-senac",
+  "version": "1.0.0",
+  "description": "Códigos desenvolvidos durante aulas no SENAC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanSnt/Desenvolvimento-Web-SENAC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanSnt/Desenvolvimento-Web-SENAC/issues"
+  },
+  "homepage": "https://github.com/NathanSnt/Desenvolvimento-Web-SENAC#readme"
+}
