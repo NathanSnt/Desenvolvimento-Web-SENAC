@@ -23,3 +23,9 @@ Pacotes do node = https://www.npmjs.com/package/nodemon
     > npm install --save-dev nodemon
 
     > npm install -D ts-node
+
+6 - Criar Alias para o comando de execução
+    - no arquivo package.json, acrecentar no "scripts":
+    "start-dev":"nodemon src/index.ts"
+    Agora, para rodar:
+    > npm run start-dev
